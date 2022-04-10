@@ -27,7 +27,7 @@ print(F)
 f.close()
 if len(S)!=1:
     print("AFD nu este valid")
-elif len(F)==0 or len(Q)==0 or len(E)==0:
+elif len(Q)==0 or len(E)==0:
     print("AFD nu este valid")
 else:
     nr=len(Q)

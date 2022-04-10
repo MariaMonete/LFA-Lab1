@@ -47,7 +47,9 @@ for i in range(len(cuv)):
     if cuv[i] not in E:
         ok=1
         print('Cuvantul nu este valid')
-lista_stari=[0]
+lista_stari=[]
+for x in S:
+    lista_stari.append(x)
 i=0
 indice=0
 if ok==0:
